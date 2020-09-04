@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------------------------
+Uppgift 2
+
+Instruktioner:
+välja en restaurang, som ni ska skapa en liten hemsida till. 
+Hemsidan ni skapar ska "passa" restaurang stil/tema så gått ni kan.
+
+Krav:
+-Minst 2 html sidor, en startsida med lite “flash” och en med någon meny för maten
+-Ska skala efter webbläsarens storlek
+-Ska utnyttja Html5 taggarna (Se bifoga bild) 
+Bonus:
+anpassa och ändra menyn för att vara optimal för mindre skärmar/mobil.
++ lägg till en “Parallax Scrolling”  effekt (Se bifogad länk). 
+
+--------------------------------------------------------------------------------------------------
+Utförande:
+- Två sidor (klar)
+- Skalbar
+- Nyttjat html5 taggar
+- Menyn är anpassningsbar för mobila enheter
+- 
+
+
+--------------------------------------------------------------------------------------------------

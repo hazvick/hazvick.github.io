@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Mello Yello - Malmös Bästa Restaurang</title>
+    <!--    Gör sidan responsiv     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    Importering av css filen    -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Importering av fonten BootstrapCDN, innehåller ikoner och dylikt-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="bakgrund-restaurang">
+        <div class="nav-meny">
+            <div class="nav-logga">
+                <img src="bilder/melloyello_logga.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <a href="index.html"><li>Hem</li></a>
+                    <a href="meny.html"><li>Meny</li></a>
+                </ul>
+                <button type="button" class="btn">Boka Bord</button>
+            </div>
+        </div>
+        <div class="w3-container w3-transparent w3-padding-64 w3-xxlarge" id="menu">
+          <div class="w3-content">
+          
+            <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Meny</h1>
+            <div class="w3-row w3-center w3-border w3-border-yellow">
+              <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Pizza</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openMenu(event, 'Sallad');">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Sallad</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-yellow">Pasta</div>
+              </a>
+            </div>
+        
+            <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+              <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">60 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella</p>
+              <hr>
+           
+              <h1><b>Funghi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">90 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella, champinjoner</p>
+              <hr>
+              
+              <h1><b>Bolognese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">120 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella, köttfärsås</p>
+              <hr>
+        
+              <h1><b>Kyckling</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella, färsk kyckling</p>
+              <hr>
+        
+              <h1><b>Inbakad</b> <span class="w3-tag w3-yellow w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">160 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella, skinka</p>
+              <hr>
+        
+              <h1><b>Al-Garve</b> <span class="w3-tag w3-grey w3-round">Ny</span><span class="w3-right w3-tag w3-dark-grey w3-round">120 kr</span></h1>
+              <p class="w3-text-grey">Tomatsås, ost, mozarella, tonfisk, ostron</p>
+            </div>
+        
+            <div id="Sallad" class="w3-container menu w3-padding-32 w3-white">
+              <h1><b>Cesar Sallad</b> <span class="w3-tag w3-yellow w3-round">Populär</span> <span class="w3-right w3-tag w3-dark-grey w3-round">70 kr</span></h1>
+              <p class="w3-text-grey">Isbergssallad, gurka, tomat, fetaost, kyckling</p>
+              <hr>
+           
+              <h1><b>Broccoli Sallad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">50 kr</span></h1>
+              <p class="w3-text-grey">Broccoli, tomat, vitvinsvinäger</p>
+              <hr>
+              
+              <h1><b>Egyptisk Sallad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">50 kr</span></h1>
+              <p class="w3-text-grey">Isbergssallad, gurka, tomat, fetaost, kryddor</p>
+              <hr>
+        
+              <h1><b>Mello Yello Sallad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">80 kr</span></h1>
+              <p class="w3-text-grey">Romansallad, gurka, tomat, kyckling, vitlökssås</p>
+            </div>
+        
+        
+            <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+              <h1><b>Mello Yello Pasta</b> <span class="w3-tag w3-yellow w3-round">Populär</span><span class="w3-right w3-tag w3-dark-grey w3-round">80 kr</span></h1>
+              <p class="w3-text-grey">Barilla pasta, tomat, gurka, vitlökssmör, kyckling</p>
+              <hr>
+           
+              <h1><b>Tomatpasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">40 kr</span></h1>
+              <p class="w3-text-grey">Barilla pasta, tomatsås, soltorkade tomater</p>
+              <hr>
+              
+              <h1><b>Pasta Carbonara</b> <span class="w3-right w3-tag w3-dark-grey w3-round">60 kr</span></h1>
+              <p class="w3-text-grey">Barilla pasta, ost, bacon</p>
+              <hr>
+              
+              <h1><b>Pasta ai Funghi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">110 kr</span></h1>
+              <p class="w3-text-grey">Barilla pasta, lager ost, champinjoner från Österrike</p>
+            </div><br>
+            <script>
+              // Tabbed Menu
+              function openMenu(evt, menuName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("menu");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                   tablinks[i].className = tablinks[i].className.replace(" w3-yellow", "");
+                }
+                document.getElementById(menuName).style.display = "block";
+                evt.currentTarget.firstElementChild.className += " w3-yellow";
+              }
+              document.getElementById("myLink").click();
+              </script>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

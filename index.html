@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Mello Yello - Malmös Bästa Restaurang</title>
+    <!--    Gör sidan responsiv     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    Importering av css filen    -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Importering av fonten BootstrapCDN, innehåller ikoner och dylikt-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Oops!</h4>
+              </div>
+              <div class="modal-body"><br>
+                <p>Det verkar som att denna funktionen inte fungerar, kanske i nästa version :) </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="bakgrund-restaurang">
+        <div class="nav-meny">
+            <div class="nav-logga">
+                <img src="bilder/melloyello_logga.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <a href="index.html"><li>Hem</li></a>
+                    <a href="meny.html"><li>Meny</li></a>
+                </ul>
+                <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Boka Bord</button>
+            </div>
+        </div>
+        <i class="fa fa-facebook"></i>
+        <div class="banner-titel">
+            <h1>Välkommen till <span>Malmös Godaste</span> Restaurang!</h1>
+            <!-- lade innan <a href> efter button, men då blev man bara dirigerad -->
+            <!-- när man tryckte på texten, inte knappen -->
+            <a href="meny.html"><button type="button" class="btn">Se mer</button></a>
+        </div>
+    </div>
+</body>
+</html>
