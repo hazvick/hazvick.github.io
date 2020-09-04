@@ -187,3 +187,12 @@
   text-decoration: none;
   cursor: pointer;
 } 
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
