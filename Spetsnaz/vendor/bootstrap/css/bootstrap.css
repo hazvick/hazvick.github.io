@@ -73,9 +73,16 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #41729F;
 }
 
 p {
@@ -384,6 +391,17 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+/* bakgrund */
+.bakgrund {
+  height: 100vh;
+  background-image: url(/bilder/external-content.duckduckgo.com.gif);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -429,7 +447,6 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
 }
 
 .list-unstyled {
@@ -477,7 +494,6 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1282,6 +1298,19 @@ pre code {
   .offset-md-11 {
     margin-left: 91.666667%;
   }
+}
+
+.gallery-filter {
+  width: 100%;
+  text-align: center; 
+}
+
+.gallery-filter .btn {
+  background-color: #FFF; 
+}
+
+.gallery_product {
+  margin-bottom: 30px; 
 }
 
 @media (min-width: 992px) {
@@ -2521,6 +2550,10 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+}
+
+.btn btn-block btn--blue mt-4 {
+  color: #274472;
 }
 
 .btn {
@@ -4775,6 +4808,14 @@ input[type="button"].btn-block {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
+.boka-knapp {
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  float: right;
+}
+
+
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -4784,6 +4825,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  color: #274472;
 }
 
 .card-subtitle {

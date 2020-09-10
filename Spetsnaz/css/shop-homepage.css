@@ -7,15 +7,13 @@ body {
   padding-top: 56px;
 }
 
-.bg-dark {
-	background-color: #274472!important;
-}
-.paragraf {
-	font-weight:bold;
-	padding-bottom:10px;
+.btn {
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  color: #274472;
 }
 
-.sovjetbild {
-	padding-bottom:35px;
-	width: 400px;
+.btn::hover {
+  background-color: #4CAF50; /* Green */
+  color: #C3E0E5;
 }
