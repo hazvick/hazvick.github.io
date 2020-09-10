@@ -4,9 +4,13 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  padding-top: 85px;
 }
 
 .bg-dark {
 	background-color: #274472!important;
+}
+
+.navbar {
+	padding: 1.5rem 1rem;
 }
