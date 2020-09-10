@@ -6,3 +6,7 @@
 body {
   padding-top: 56px;
 }
+
+.bg-dark {
+	background-color: #274472!important;
+}
