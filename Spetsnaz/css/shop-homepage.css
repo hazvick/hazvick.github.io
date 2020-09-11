@@ -7,7 +7,6 @@ body {
   padding-top: 56px;
 }
 
-<<<<<<< Updated upstream
 .btn {
   border-radius: 4px;
   transition-duration: 0.4s;
@@ -18,26 +17,3 @@ body {
   background-color: #4CAF50; /* Green */
   color: #C3E0E5;
 }
-=======
-.bg-dark {
-  background-color: #274472 !important;
-}
-
-/*
-adil footer icon test
-start
-*/
-
-#ikonstorlek {
-  font-size: 30px;
-  float: right;
-}
-#divfooter {
-  height: 30px;
-}
-
-/*
-adil footer icon test
-start
-*/
->>>>>>> Stashed changes
