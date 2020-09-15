@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 
+
 body {
   padding-top: 85px;
 }
@@ -35,5 +36,9 @@ body {
 .stegbilder {
 	height: 200px;
 	width:165px;
-	
+
+}
+
+.categorycontainer {
+    margin: 0 auto;
 }
