@@ -3,17 +3,37 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
+
 body {
-  padding-top: 56px;
+  padding-top: 85px;
 }
 
-.btn {
-  border-radius: 4px;
-  transition-duration: 0.4s;
-  color: #274472;
+.bg-dark {
+	background-color: #274472!important;
 }
 
-.btn::hover {
-  background-color: #4CAF50; /* Green */
-  color: #C3E0E5;
+.navbar {
+	padding: 1.5rem 1rem;
+}
+
+.paragraf {
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+.header3 {
+	padding-bottom:35px;
+	padding-top:35px;
+	
+	
+}
+.hurvifunkar {
+	padding-bottom:15px;
+	
+}
+
+.stegbilder {
+	height: 200px;
+	width:165px;
+	
 }
