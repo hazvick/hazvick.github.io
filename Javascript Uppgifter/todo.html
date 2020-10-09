@@ -1,26 +1,22 @@
-<!DOCTYPE html> <!-- Import med prettier -->
+<!DOCTYPE html> <!-- prettier format -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/todo.css">
-    <title>To-Do</title>
-</head>
-<body>
-    <div id="myDIV" class="header">
-        <h2>To-Do</h2>
-        <input type="text" id="myInput" placeholder="ny to-do">
-        <span onclick="newElement()" class="addBtn"><b>Lägg till</b></span>
-    </div>
-      
-      <ul id="myUL">
-        <li>Göra GRIT uppgiften</li>
-        <li>Kolla javascript youtube video</li>
-        <li>Styrketräna</li>
-        <li>Ta tvätten</li>
-        <li>Rasta hunden</li>
-        <li>Lämna in modul 2</li>
-      </ul> 
-      <script type="text/Javascript" src="js/todo.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <title>Hazvick's todo list'</title>
+  </head>
+  <body>
+    <header> <!-- Header content -->
+      <h1>The To-Do List</h1>
+    </header>
+
+    <form id="newTodo" class="newTodo"> <!-- user input, todo tasks -->
+      <input id="newTodoInput" type="text" autocomplete="off" />
+      <button class="btn" type="submit">Add to list</button>
+    </form>
+    <ul id="todoList"></ul>
+
+    <script src="js/todo.js"></script>
+  </body>
 </html>

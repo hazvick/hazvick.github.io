@@ -1,56 +1,28 @@
-// Skapandet av en "ta bort" knapp
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+// declare variables
+const newTodo = document.querySelector("#newTodo");
+const newTodoInput = document.querySelector("#newTodoInput");
+const todoList = document.querySelector("#todoList");
+
+// sets focus on the "add Todo" input bar
+newTodoInput.focus();
+
+// implementation of eventlistener
+newTodo.addEventListener("submit", (event) => {
+  event.preventDefault();
+  addTodo(newTodoInput.value);
+});
+
+// function for adding to the todo list
+function addTodo(todoText) {
+  todoList.insertAdjacentHTML(
+    "beforeend",
+    `<li>${todoText}<button class="delBtn" onclick="deleteTodo(this)">Delete</button></li>`
+  );
+  newTodo.reset();
 }
 
-// Funktionalitet bakom koden ovan
-// Tar bort en task
-var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
+// function for removing from the todo list
+function deleteTodo(element) {
+  element.parentElement.remove();
+  newTodoInput.focus();
 }
-
-// Lägger till "check" märket när man trycker på en task
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
-
-// Skapar en ny to-do task när man trycker på "lägg till"
-function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("Du måste skriva något först!");
-  } else {
-    document.getElementById("myUL").appendChild(li);
-  }
-  document.getElementById("myInput").value = "";
-
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-} 
