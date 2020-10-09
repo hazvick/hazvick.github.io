@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Recording</title>
-    <link rel="stylesheet" href="css/calculator.css" />
-  </head>
 
-  <body>
-    <section class="calculator">
-        <div class = title >Hazvicks calculator</div> 
-        <table border="1"> 
-           <tr> 
-              <td colspan="3"><input type="text" id="result"/></td> 
-              <!-- clr() function will call clr to clear all value -->
-              <td><input type="button" value="c" onclick="clr()"/> </td> 
-           </tr> 
-           <tr> 
-              <!-- create button and assign value to each button -->
-              <!-- dis("1") will call function dis to display value -->
-              <td><input type="button" value="1" onclick="dis('1')"/> </td> 
-              <td><input type="button" value="2" onclick="dis('2')"/> </td> 
-              <td><input type="button" value="3" onclick="dis('3')"/> </td> 
-              <td><input type="button" value="/" onclick="dis('/')"/> </td> 
-           </tr> 
-           <tr> 
-              <td><input type="button" value="4" onclick="dis('4')"/> </td> 
-              <td><input type="button" value="5" onclick="dis('5')"/> </td> 
-              <td><input type="button" value="6" onclick="dis('6')"/> </td> 
-              <td><input type="button" value="-" onclick="dis('-')"/> </td> 
-           </tr> 
-           <tr> 
-              <td><input type="button" value="7" onclick="dis('7')"/> </td> 
-              <td><input type="button" value="8" onclick="dis('8')"/> </td> 
-              <td><input type="button" value="9" onclick="dis('9')"/> </td> 
-              <td><input type="button" value="+" onclick="dis('+')"/> </td> 
-           </tr> 
-           <tr> 
-              <td><input type="button" value="." onclick="dis('.')"/> </td> 
-              <td><input type="button" value="0" onclick="dis('0')"/> </td> 
-              <!-- solve function call function solve to evaluate value -->
-              <td><input type="button" value="=" onclick="solve()"/> </td> 
-              <td><input type="button" value="*" onclick="dis('*')"/> </td> 
-           </tr> 
-        </table> 
-    </section>
-    <script type="text/Javascript" src="js/calculator.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hazvick's Calculator</title>
+  <link rel="stylesheet" href="css/calculator.css" />
+</head>
+
+<body>
+  <section class="calculator">
+   <h1>Hazvick's Calculator</h1>
+    <form>
+      <input type="text" name=""  class="screen" placeholder="Insert equation"/>
+    </form>
+    <div class="buttons">
+      <!-- yellow -->
+      <button type="button" class="btn btn-yellow" value="*">*</button>
+      <button type="button" class="btn btn-yellow" value="/">/</button>
+      <button type="button" class="btn btn-yellow" value="-">-</button>
+      <button type="button" class="btn btn-yellow" value="+">+</button>
+      <!-- grey buttons -->
+      <button type="button" class="btn btn-grey" value=".">.</button>
+      <button type="button" class="btn btn-grey" value="9">9</button>
+      <button type="button" class="btn btn-grey" value="8">8</button>
+      <button type="button" class="btn btn-grey" value="7">7</button>
+      <button type="button" class="btn btn-grey" value="6">6</button>
+      <button type="button" class="btn btn-grey" value="5">5</button>
+      <button type="button" class="btn btn-grey" value="4">4</button>
+      <button type="button" class="btn btn-grey" value="3">3</button>
+      <button type="button" class="btn btn-grey" value="2">2</button>
+      <button type="button" class="btn btn-grey" value="1">1</button>
+      <button type="button" class="btn btn-grey" value="0">0</button>
+      <button type="button" class="btn-equal btn-grey" id="equal" >=</button> 
+      <button type="button" class="btn-clear btn-grey" id="clearScreen" >C</button>
+    </div>
+  </section>
+  <script src="js/calculator.js"></script>
+</body>
+
 </html>
