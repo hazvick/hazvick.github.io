@@ -1,3 +1,4 @@
+// querySelector & eventListener
 let button = document.querySelectorAll("button").forEach(button=>{
     button.addEventListener("click", print)
 })
