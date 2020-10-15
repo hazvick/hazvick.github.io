@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/animals.css" />
+    <title>Animals by Hazvick</title>
+  </head>
+  <body>
+      <h1>Random images of animals, fetched through an API.</h1>
+    <img src="" class="displayedimage" height="70%" width="70%" /><br>
+    <!--Wrapper for body-->
+    <div class="wrapper">
+      <form class="animalForm">
+        <label for="animalForm">Choose animal below </label><br><br>
+        <select class="animalDropdown">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="fox">Fox</option>
+        </select>
+        <button type="submit">Fetch</button>
+      </form><br>
+      <h4>Saved images</h4>
+      <div class="favorites">
+        <ul class="favorites-list"></ul>
+      </div>
+    </div>
+    <script src="js/animals.js"></script>
+  </body>
+</html>
