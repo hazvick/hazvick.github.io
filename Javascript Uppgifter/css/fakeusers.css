@@ -1,0 +1,10 @@
+.hide {
+  display: none;
+}
+
+/* gridding and centering user content */
+.userInfoContainer {
+  display: grid;
+  margin-left: 140px;
+  margin-top: 50px;
+}
