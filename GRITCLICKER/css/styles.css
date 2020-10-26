@@ -1,0 +1,113 @@
+* {
+  cursor: default;
+}
+
+body {
+  background: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  font-size: 100px;
+  text-align: center;
+  color: darkslategrey;
+  height: 15vh;
+  line-height: 15vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.section {
+  border: 1px solid black;
+  height: 80vh;
+  width: 32%;
+}
+
+.text-area {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.footer-shit {
+  height: 5vh;
+  text-align: center;
+  line-height: 5vh;
+}
+
+.cookie {
+  position: relative;
+  margin: 0 auto;
+  top: 25%;
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+}
+
+.upgrade-area {
+  position: relative;
+  overflow: auto;
+  background-color: lightslategray;
+}
+
+.upgrade-header {
+  text-align: center;
+  font-size: 40px;
+  background-color: gainsboro;
+  border-bottom: 1px solid darkslategrey;
+}
+
+.upgrade-mouse-click-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.upgrade-click {
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.upgrades {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 97%;
+  height: 70px;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.upgrades-info {
+  display: none;
+  text-align: center;
+  border: 1px solid black;
+  background: snow;
+  padding: 10px;
+  bottom: 50px;
+  left: 35%;
+  width: 29vw;
+  position: fixed;
+}
+
+.not-implemented {
+  background-color: dimgrey;
+  cursor: not-allowed;
+}
+
