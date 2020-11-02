@@ -1,0 +1,79 @@
+/* ------------- */
+/* Basic Setting */
+/* ------------- */
+* {
+    background-color: #dfe3ee;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color:  	#dfe3ee;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    min-height: 140px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ======================== */
+/* Just Copy The Code Below */
+
+/* ------------- */
+/* Content Style */
+/* ------------- */
+
+.widget-welcome {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;;
+    line-height: 1.5;
+    color: #3b5998;
+}
+
+.info {
+    position: absolute;
+    color: #3b5998;
+    font-size: 2.5em;
+    padding: 60px;
+}
+
+.nyheter {
+    font-size: 2.5em;
+    padding: 60px;
+    color: #3b5998;
+    margin-top: 630px;
+    position: absolute;
+}
+
+.widget-welcome .temperature {
+    font-size: 16em;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1400px;
+}
+
