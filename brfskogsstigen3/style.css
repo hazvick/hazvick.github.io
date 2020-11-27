@@ -65,7 +65,7 @@ main {
     font-size: 2.5em;
     padding: 60px;
     color: #3b5998;
-    margin-top: 630px;
+    margin-top: 360px;
     position: absolute;
 }
 
@@ -73,7 +73,7 @@ main {
     font-size: 16em;
     font-weight: 700;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 1400px;
+    margin-top: -200px;
+    margin-left: 1600px;
 }
 

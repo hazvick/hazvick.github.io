@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grit chat</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/modul2chatt.css" type="text/css" />
   </head>
 
   <body>
@@ -30,8 +30,8 @@
         <div class="name-and-controls">
           <div class="name">No one connected</div>
           <div class="video-chat-controls">
-            <button class="start active">Start video chat</button>
-            <button class="stop">Hang up</button>
+            <div class="start active">Start video chat</div>
+            <div class="stop">Hang up</div>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
         <input
           type="text"
           class="new-message"
-          value=""
+          value="new msg"
           placeholder="Type text..."
         />
         <button class="send-new-message-button">Send</button><br />
@@ -63,8 +63,7 @@
     </div>
 
     <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="scripts/modul2chatt.js"></script>
     <!-- <script src="./Lektion_7.js"></script> -->
   </body>
 </html>
-
