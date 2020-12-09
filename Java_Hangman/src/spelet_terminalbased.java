@@ -21,14 +21,6 @@ public class spelet_terminalbased {
     public static Random random = new Random(); // slumpmässigt val av ord
     public static Scanner scanner = new Scanner(System.in); // scanner för userinputs
     public static ArrayList <String> arr = new ArrayList<>(); // vid rätt bokstav, updatera och printa
-
-    /*
-     * Olika stadierna
-     */
-    String hangman7 = "\n_________" + "\n|                   |" + "\n|                  O" + "\n|               ---|---" + "\n|                  /" + "\n|                /" + "\n|_______________________\n";
-    String hangman8 = "\n_________" + "\n|                   |" + "\n|                  O" + "\n|               ---|---" + "\n|                  /" + "\n|                /" + "\n|_______________________\n";
-    String hangman9 = "\n_________" + "\n|                   |" + "\n|                  O" + "\n|               ---|---" + "\n|                  /\\" + "\n|                /    \\" + "\n|_______________________";
-
     
     public static void printBoard(ArrayList<String>arr, int life){
 
