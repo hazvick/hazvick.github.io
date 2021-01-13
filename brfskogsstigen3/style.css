@@ -2,7 +2,7 @@
 /* Basic Setting */
 /* ------------- */
 * {
-    background-color: #dfe3ee;
+    background-color: #7e7474;
 }
 
 html,
@@ -13,7 +13,7 @@ body {
     font-style: normal;
     font-size: 1em;
     line-height: 1.5;
-    color:  	#dfe3ee;
+    color:  	#222831;
     scroll-behavior: smooth;
 }
 
@@ -51,12 +51,12 @@ main {
     position: absolute;
     font-family: 'Manrope', sans-serif;;
     line-height: 1.5;
-    color: #3b5998;
+    color: #0c2fba;
 }
 
 .info {
     position: absolute;
-    color: #3b5998;
+    color: #dddddd;
     font-size: 2.5em;
     padding: 60px;
 }
@@ -64,7 +64,7 @@ main {
 .nyheter {
     font-size: 2.5em;
     padding: 60px;
-    color: #3b5998;
+    color: #dddddd;
     margin-top: 360px;
     position: absolute;
 }
