@@ -20,6 +20,7 @@ class PasswordRegex {
         	}
     	}
     }
+	scan.close(); //stänga scanner för att förhindra resource leak
 }
 	
 
