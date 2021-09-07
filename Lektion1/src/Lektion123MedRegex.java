@@ -9,11 +9,11 @@ class PasswordRegex {
     			"- has to contain at least 2 numbers \n" + 
     			"Please enter your new password: " 
     			);
-    	while (true) { 
+    	while (int i=0; i < 10; i++) { 
         	String password = scan.nextLine();
     		if (password.matches("(?!.*[^A-Za-z0-9])(?=.{6,12}).*\\d.*\\d.*")) { //implementering av regex
         	    System.out.println("Password is valid");
-        	    scan.close(); //stänga scanner för att förhindra resource leak
+        	    scan.close(); //stÃ¤nga scanner fÃ¶r att fÃ¶rhindra resource leak
         	    break;
         	} else {
         		System.err.println("The password: " + password + " is invalid. Try again.");
