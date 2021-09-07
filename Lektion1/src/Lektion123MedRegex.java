@@ -9,7 +9,7 @@ class PasswordRegex {
     			"- has to contain at least 2 numbers \n" + 
     			"Please enter your new password: " 
     			);
-    	while (int i=0; i < 10; i++) { 
+    	while (int i=0; i < 3; i++) { 
         	String password = scan.nextLine();
     		if (password.matches("(?!.*[^A-Za-z0-9])(?=.{6,12}).*\\d.*\\d.*")) { //implementering av regex
         	    System.out.println("Password is valid");
