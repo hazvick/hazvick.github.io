@@ -1,0 +1,41 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
+
+body {
+    margin-top: 65px;
+    font-family: 'Delius', cursive;
+}
+
+.navbar {
+    margin-bottom: 200px;
+}
+
+#quiz {
+    margin-top: 125px;
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+}
+
+#quiz-sub {
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+}
+
+h4 {
+    width: 1000px;
+}
+
+#status {
+    margin-top: 10px;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+#btnNav {
+    margin: 12px;
+}
+
+#comment-form { display: none; }

@@ -1,0 +1,102 @@
+{
+    
+    "test-1": [
+    {
+        "question": "A company is currently looking at using Azure storage accounts as a data storage platform. They want to be able to store documents that would need to be retained for around a year. They want to minimize the cost of storage. These documents are not accessed that frequently. If you need to retrieve an object in Azure BLOB Archive storage, which of the following would need to be done first?",
+        "answers": ["Change the access permissions", "Change the tier of the object", "Change the account kind", "Change the access keys"],
+        "correct": "Change the tier of the object",
+        "tip": "You need to change the tier of the object. This is also mentioned in the Microsoft documentation.",
+        "img": ["https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-666.png"]
+    },{
+        "question": "A developer has been assigned a task to create code which would interact with an Azure Redis instance. Objects of the following class need to be uploaded to the Azure Redis Cache database: Which of the following would go into Slot1?",
+        "answers": ["ObjectSet", "StringSet", "ClassSet", "Set"],
+        "correct": "StringSet",
+        "tip": "To Add an object to the cache database, we need to use the StringSet Method. An example of this is also given in the Microsoft documentation" ,
+        "img": ["https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-915.png", "https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-916.png"]
+    }, {
+        "question": "A developer has been assigned a task to create code which would interact with an Azure Redis instance. Objects of the following class need to be uploaded to the Azure Redis Cache database: Which of the following would go into Slot2?",
+        "answers": ["SetObject", "SerializeObject", "GetObject", "SerializeClass"],
+        "correct": "SerializeObject",
+        "tip": "We need to serialize the object before it can be added to the redis cache database." ,
+        "img": ["https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-918.png", "https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-919.png"]
+    }, {
+        "question": "A developer has been assigned a task to create code which would interact with an Azure Redis instance. Objects of the following class need to be uploaded to the Azure Redis Cache database: Which of the following would go into Slot3?",
+        "answers": ["SetObject", "DeserializeObject", "GetObject", "DeserializeClass"],
+        "correct": "DeserializeObject",
+        "tip": "We need to use the deserialize method to convert the object retrieved from the cache" ,
+        "img": ["https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-921.png", "https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-922.png"]
+    }, {
+        "question": "A company has a web application deployed to Azure. The web application is currently being hosted as part of the Azure Web App service. There is a requirement to stream the logs from the web app and filter out on any errors. You have to complete the below Azure CLI command for this requirement. Which of the following would go into Slot2?",
+        "answers": ["file", "log", "tail", "stream"],
+        "correct": "tail",
+        "tip": "Since we need to stream the log files , the next option to include is the “tail” option" ,
+        "img": ["https://skillcertpro.com/wp-content/uploads/2020/08/i/word-image-692.png"]
+    }],
+
+    "test-2": [
+    {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }],
+
+    "test-3": [
+    {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }, {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": "",
+        "tip": "" ,
+        "img": [""]
+    }]
+
+}
