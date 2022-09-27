@@ -354,6 +354,19 @@ main {
   border-radius: 8px;
 }
 
+.info-content .title-skills {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 4px 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 6px;
+  border-radius: 8px;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
